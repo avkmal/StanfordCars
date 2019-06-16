@@ -25,4 +25,5 @@ arch = models.resnet152
 learn = cnn_learner(data_test, arch, metrics=[accuracy])
 learn.load('stage3-8epoch')
 test_preds, test_ys = learn.TTA()
-accuracy(test_preds, test_ys)
+accuracy = accuracy(test_preds, test_ys)
+print(f'accuracy: {accuracy*100:.2f}%')
