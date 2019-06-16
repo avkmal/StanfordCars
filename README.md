@@ -1,4 +1,4 @@
-# Stanford Cars Image classification (Grab AI for Sea Challenge)
+# Stanford Cars Image classification (Grab AI for SEA Challenge)
 
 Creating CNN image classifier on Stanford Cars dataset using fastai library
 
@@ -34,3 +34,10 @@ Summary of best models based on experiment above:
 
 **Final Testing**: <br>
 Accuracy on test set: **0.8827**
+
+**Testing Steps**:
+- data should be put inside `data` folder using `cars_train` and `cars_test` folder names.
+- run `testing.py`
+
+Model file can be found [here](https://github.com/avkmal/StanfordCars/tree/master/data/models). It's stored in git LFS as the size is about 200 mb.
+
