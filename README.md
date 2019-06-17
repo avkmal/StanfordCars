@@ -1,14 +1,14 @@
 # Stanford Cars Image Classification (Grab AI for SEA Challenge)
 
-Creating CNN image classifier on Stanford Cars dataset using fastai library
+Creating CNN image classifier on Stanford Cars dataset using fastai library.
 
 ## Summary
 
-Summary of best models based on experiment above:
+Summary of best model based on experiments in [Solution_notebook.ipynb](https://github.com/avkmal/StanfordCars/blob/master/Solution_notebook.ipynb):
 
 **Stage 1**:
-- Initialize the model(resnet152 with pretrained weights on ImageNet).
-- Train final layer
+- initialize the model(resnet152 with pretrained weights on ImageNet).
+- train final layer
 - best learning rate: 0.001
 - number of epochs: 16
 - train loss: 0.364173 	
