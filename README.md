@@ -33,7 +33,8 @@ Summary of best model based on experiments in [Solution_notebook.ipynb](https://
 - validation accuracy: 0.878378
 
 **Final Testing**: <br>
-Accuracy on test set: **0.8827**
+- Use Test-Time-Augmentation(TTA). Taking series of different versions of the original image(cropping different areas, changing the zoom) and passing them through the model to get predictions. The average output predictions is then calculated based on different versions of the image and this is given as final output precition for the image
+- Accuracy on test set: **0.8827**
 
 **Testing Steps**:
 - dependency: PyTorch and `fastai` library. Install:
