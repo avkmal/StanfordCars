@@ -1,4 +1,4 @@
-# Stanford Cars Image Classification (Grab AI for SEA Challenge)
+# Stanford Cars Image Classification 
 
 Creating CNN image classifier on Stanford Cars dataset using fastai library.
 
